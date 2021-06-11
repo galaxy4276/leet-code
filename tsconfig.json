@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "baseUrl": "..",
+    "noImplicitAny": true,
+    "target": "ES5"
+  },
+  "exclude": ["node_modules"]
+}
