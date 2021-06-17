@@ -50,10 +50,10 @@ console.log(parkingSystem.addCar(3));
 console.log(parkingSystem.addCar(1));
 
 /* 살펴보기 */
-function ParkingSystemFunction(...spaces: any) {
-  this.spaces = spaces;
-}
-
-ParkingSystemFunction.prototype.addCar = function (car: number) {
-  return this.spaces[car-1] ? this.spaces[car-1]-- && true : false;
-};
+// function ParkingSystemFunction(...spaces: any) {
+//   this.spaces = spaces;
+// }
+//
+// ParkingSystemFunction.prototype.addCar = function (car: number) {
+//   return this.spaces[car-1] ? this.spaces[car-1]-- && true : false;
+// };
