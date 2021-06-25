@@ -8,7 +8,8 @@
     "esModuleInterop": true,
     "baseUrl": "..",
     "noImplicitAny": true,
-    "target": "ES5"
+    "target": "ES5",
+    "declaration": true,
   },
   "exclude": ["node_modules"]
 }
